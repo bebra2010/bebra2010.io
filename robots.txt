@@ -1,0 +1,14 @@
+Uder-agent:Yandex
+Dissallow: /Admin
+Dissallow: *?page=
+Sitemap: https:/bebra2010.github.io/sitemap.xml
+
+Uder-agent:Googlebot
+Dissallow: /Admin
+Dissallow: *?page=
+Sitemap: https:/bebra2010.github.io/sitemap.xml
+
+Uder-agent:*
+Dissallow: /Admin
+Dissallow: *?page=
+Sitemap: https:/bebra2010.github.io/sitemap.xml

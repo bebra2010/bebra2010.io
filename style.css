@@ -1,0 +1,195 @@
+*{
+    font-family: Arial, sans-serif; /* устанавливаем шрифты */
+}
+
+body{
+    background: #e8e8e8; /* задний фон */
+    margin: 0; /* убираем стандартные отступы браузера */
+    padding: 0;
+    background-image: url(https://phonoteka.org/uploads/posts/2021-03/1616702859_47-p-fon-na-zadnii-plan-51.jpg);
+}
+
+header{
+    background-color: #2c3e50; /* задний фон шапки */
+    padding: 15px 30px; /* внутренние отступы шапки */
+    display:flex; /* объединяет блоки и легко выравнивает их между собой */
+    justify-content: space-between; /* задание одинакового расстояния между блоками */
+    width: 97%;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+    vertical-align: middle;
+}  
+.logo{
+    display:flex; /* объединяет блоки и легко выравнивает их между собой */
+    align-items: center; /* выравнивание логотипа вертикально */
+}
+.logo-img{
+    margin-right: 15px; /* внешний отступ справа */
+}
+
+.logo img{
+    width: 60px;
+}
+
+.logo-title{
+    color: #e8e8e8; /* цвет названия сайта */
+    font-size: 32px; /* размер букв названия сайта */
+    font-weight: bold; /* ширина шрифта названия сайта */
+} 
+.hor-menu{
+    display:flex; /* объединяет блоки и легко выравнивает их между собой */
+    align-items: center; /* выравнивание списка вертикально */ 
+}
+.hor-menu ul li{
+    list-style-type: none; /* отменяет маркеры для списка */
+    float: left; /* выравнивание слева */ 
+    padding: 15px 0px; /* верхние-нижние и левые-правые внутренние отступы */
+    font-family: Arial, sans-serif; /* устанавливаем шрифты */
+}
+.a{
+    display: flex;
+    align-content: center;
+}
+ul{
+    margin: 0 auto;
+}
+.a p{
+    opacity: 0.5;
+    padding: 0px 5px;
+}
+.hor-menu ul li a{
+    color: #6F8CA7; /* цвет текста меню */
+    text-decoration: none; /* выключение подчёркивания гиперссылок */
+    padding: 10px 15px; /* верхние-нижние и левые-правые внутренние отступы */
+}
+.hor-menu ul li a:hover{ /* анимация */
+    background: #6F8CA7; /* цвет рамки вокруг слов у меню при наведении */
+    color: white; /* цвет текста меню при наведении */
+    transition: all 0.5s; /* скорость анимации */
+}
+.wrapper{
+    max-width: 1200px; /* максимальная ширина */
+    margin: 0 auto; /* дефолтные отступы браузера отключены */
+    padding: 50px; /* внутренняя рамка 50 пикселей со всех сторон */
+    display:flex; /* объединяет блоки и легко выравнивает их между собой */
+    justify-content: center; /* выравнивает по центру, распределяет место между блоками */
+}
+.content{
+    max-width: 1920px; /* максимальная ширина */
+    min-width: 360px; /* минимальная ширина */
+    padding: 20px; /* внутренние рамки 20 пикселей со всех сторон */
+    background: white; /* цвет за новостным текстом и картинкой */
+    float: center; /* выравнивание по центру */
+    display: flex; /* объединяет блоки и легко выравнивает их между собой */
+    flex-direction: column; /* расположение сверху-вниз */
+    z-index: -10;
+}
+
+.logo-img{
+    width: 1160px; /* ширина изображения */
+}
+
+.haha{
+    border: 15px solid #d4d4d4;
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+
+.text{
+    color: gray; /* цвет даты */
+    font-size: 85%; /* размер шрифта даты */
+}
+.text2{
+    color: #2c3e50; /* цвет заголовка */
+    font-weight: 600; /* толщина букв заголовка */
+    font-size: 200%; /* размер шрифта заголовка */
+}
+.text3{
+    color: black; /* цвет обычного текста */
+    font-size: 150%; /* размер обычного текста */
+    text-indent: 35px;
+}
+.block{
+    margin-bottom: 8px; /* равные внешние отступы снизу после даты */
+}
+
+.block1{
+    margin-bottom: 20px; /* равные внешние отступы снизу после заголовков */
+}
+
+.block3{
+    height: 150px;
+}
+
+.woww{
+    display: flex;
+    justify-content: center;
+}
+
+.INFO{
+    margin-bottom: 25px; /* равные внешние отступы снизу после каждого информационного блока */
+}
+
+.INFO img{
+    position: relative;
+    z-index: -4;
+}
+
+.background img{ /* фоновое изображение */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.two img{
+    top: 156.5%;
+}
+
+.wow{
+    font-size: 50px;
+}
+
+.bin3{ /* бинокли по видам */
+    color: #122c35;
+    font-size: 50px;
+}
+
+.kek{
+    margin-top: 20px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bin{
+    font-weight: 300;
+}
+
+
+footer{
+    background-color: #e8e8e8;
+    color: black;
+    padding: 20px 50px 50px 10px;
+    display: flex;
+}
+
+p{
+    margin: 0 auto;
+}
+
+.fot{
+    display: flex;
+    justify-content: center;
+}
+
+.fots ul li p a{
+    display: flex;
+    flex-direction: column;
+}
