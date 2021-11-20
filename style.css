@@ -1,5 +1,6 @@
 *{
     font-family: Arial, sans-serif; /* устанавливаем шрифты */
+    overflow-x: hidden;
 }
 
 body{
