@@ -203,7 +203,8 @@ footer{
     	align-items: center; /* выравнивание списка вертикально */
     	font-size: 35px;
     	width: 60%;
-		padding: 0 300px 0 0;
+		padding: 0 150px 0 0;
+		justify-content: center;
 	}
 
 	.mobile p{
@@ -228,7 +229,7 @@ footer{
 		border-radius: 20px;
 	}
 	.list p{
-		margin: 0 auto;
+		margin: 0 10px 0 0;
 	}
 }
 
