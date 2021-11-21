@@ -231,6 +231,9 @@ p{
 		background-color: #6F8CA7;
 		border-radius: 20px;
 	}
+	.list p{
+		margin: 0 auto;
+	}
 }
 
 .foter{
