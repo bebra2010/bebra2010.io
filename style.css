@@ -15,7 +15,7 @@ header{
     padding: 15px 30px; /* внутренние отступы шапки */
     display:flex; /* объединяет блоки и легко выравнивает их между собой */
     justify-content: space-between; /* задание одинакового расстояния между блоками */
-    width: 97%;
+    width: 100%;
     position: sticky;
     top: 0px;
     z-index: 9999;
@@ -206,7 +206,8 @@ p{
     	display:flex; /* объединяет блоки и легко выравнивает их между собой */
     	align-items: center; /* выравнивание списка вертикально */
     	font-size: 35px;
-    	width: 100%;
+    	width: 60%;
+		padding: 0 250px 0 0;
 	}
 
 	.mobile p{
