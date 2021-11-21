@@ -188,3 +188,48 @@ p{
     display: flex;
     flex-direction: column;
 }
+
+.mobile{
+	display: none;
+}
+
+
+@media (max-width: 1328px) {
+   /* показываем кнопку для переключения верхней навигации */
+   	header {
+    	padding: 10px 0 15px 20px;
+  	}
+
+  	.hor-menu{
+  		display: none;
+  	}
+
+  	.mobile{
+    	display:flex; /* объединяет блоки и легко выравнивает их между собой */
+    	align-items: center; /* выравнивание списка вертикально */
+    	font-size: 35px;
+    	width: 60%;
+	}
+
+	.mobile p{
+    	list-style-type: none; /* отменяет маркеры для списка */
+    	font-family: Arial, sans-serif; /* устанавливаем шрифты */
+    	color: #6F8CA7; /* цвет текста меню */
+    	padding: 10px 15px; /* верхние-нижние и левые-правые внутренние отступы */
+	}
+
+	.list a{
+		text-decoration: none;
+		margin: 0 0px 0 0px;
+    	color: #e8e8e8; /* цвет названия сайта */
+    	font-size: 32px; /* размер букв названия сайта */
+    	font-weight: bold; /* ширина шрифта названия сайта */
+	}
+
+	select{
+		height: 40%;
+		width: 18px;
+		background-color: #6F8CA7;
+		border-radius: 20px;
+	}
+}
