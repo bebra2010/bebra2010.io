@@ -1,6 +1,5 @@
 *{
     font-family: Arial, sans-serif; /* устанавливаем шрифты */
-    overflow-x: hidden;
 }
 
 body{
@@ -8,6 +7,7 @@ body{
     margin: 0; /* убираем стандартные отступы браузера */
     padding: 0;
     background-image: url(https://phonoteka.org/uploads/posts/2021-03/1616702859_47-p-fon-na-zadnii-plan-51.jpg);
+	overflow-x: hidden;
 }
 
 header{
