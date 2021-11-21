@@ -15,7 +15,7 @@ header{
     padding: 15px 30px; /* внутренние отступы шапки */
     display:flex; /* объединяет блоки и легко выравнивает их между собой */
     justify-content: space-between; /* задание одинакового расстояния между блоками */
-    width: 100%;
+    width: 97%;
     position: sticky;
     top: 0px;
     z-index: 9999;
@@ -170,7 +170,7 @@ footer{
     color: black;
     padding: 20px 50px 50px 10px;
     display: flex;
-    width: 100%;
+    width: 97%;
 }
 
 p{
@@ -206,7 +206,7 @@ p{
     	display:flex; /* объединяет блоки и легко выравнивает их между собой */
     	align-items: center; /* выравнивание списка вертикально */
     	font-size: 35px;
-    	width: 60%;
+    	width: 100%;
 	}
 
 	.mobile p{
@@ -225,7 +225,7 @@ p{
 	}
 
 	select{
-		height: 40%;
+		height: 40px;
 		width: 18px;
 		background-color: #6F8CA7;
 		border-radius: 20px;
