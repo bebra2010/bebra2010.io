@@ -15,7 +15,7 @@ header{
     padding: 15px 30px; /* внутренние отступы шапки */
     display:flex; /* объединяет блоки и легко выравнивает их между собой */
     justify-content: space-between; /* задание одинакового расстояния между блоками */
-    width: 97%;
+    width: 100%;
     position: sticky;
     top: 0px;
     z-index: 9999;
@@ -81,7 +81,6 @@ ul{
     float: center; /* выравнивание по центру */
     display: flex; /* объединяет блоки и легко выравнивает их между собой */
     flex-direction: column; /* расположение сверху-вниз */
-    z-index: -10;
 }
 
 .haha{
