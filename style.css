@@ -8,6 +8,7 @@ body{
     padding: 0;
     background-image: url(https://phonoteka.org/uploads/posts/2021-03/1616702859_47-p-fon-na-zadnii-plan-51.jpg);
 	overflow-x: hidden;
+	width: 100%;
 }
 
 header{
@@ -170,7 +171,7 @@ footer{
     color: black;
     padding: 20px 50px 50px 10px;
     display: flex;
-    width: 96%;
+    width: 100%;
 }
 
 .fot{
