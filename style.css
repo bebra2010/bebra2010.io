@@ -169,9 +169,9 @@ ul{
 footer{
     background-color: #e8e8e8;
     color: black;
-    padding: 20px 50px 50px 10px;
+    margin: 20px 50px 50px 0;
     display: flex;
-    width: 100%;
+    width: 102.1%;
 }
 
 .fot{
@@ -231,6 +231,10 @@ footer{
 	}
 	.list p{
 		margin: 0 10px 0 0;
+	}
+	.modilem{
+		width: 17%;
+		height: 50%;
 	}
 }
 
