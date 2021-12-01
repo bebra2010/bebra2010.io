@@ -188,6 +188,11 @@ footer{
 	display: none;
 }
 
+.dis{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
 
 @media (max-width: 1417px) {
    /* показываем кнопку для переключения верхней навигации */
