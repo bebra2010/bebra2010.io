@@ -224,8 +224,8 @@ footer{
 	}
 
 	select{
-		height: 40px;
-		width: 18px;
+		height: 50%;
+		width: 20%;
 		background-color: #6F8CA7;
 		border-radius: 20px;
 	}
@@ -235,6 +235,9 @@ footer{
 	.modilem{
 		width: 17%;
 		height: 50%;
+	}
+	option{
+		font-size: 10px;
 	}
 }
 
