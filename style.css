@@ -194,7 +194,7 @@ footer{
 	flex-direction: column;
 }
 
-@media (max-width: 1417px) {
+@media (max-width: 1499px) {
    /* показываем кнопку для переключения верхней навигации */
    	header {
     	padding: 10px 0 15px 20px;
